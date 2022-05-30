@@ -1,14 +1,14 @@
-@extends('layouts.app')
-
+@extends('adminlte::page')
 @section('content')
 <br>
 <br>
 <br>
 <br>
 <div class="container is-max-desktop column is-one-third has-background-grey-light">
-    <div class="has-text-centered">
-        <div class="">
-            <div class="">
+<div class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
                 <form action="{{ route('categorias.store')}}" method="post" class="form-horizontal">
                     @csrf
                     <div class="">
